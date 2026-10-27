@@ -25,7 +25,8 @@ fork adds a model-declared **state slot** that outlives content changes.
 # From npm (once published)
 dsh plugin --profile web add dsh-genui-stateful
 
-# Or straight from GitHub
+# Or straight from GitHub (the repo is private: git/pnpm must already be
+# authenticated, e.g. via `gh auth setup-git` or a stored credential)
 dsh plugin --profile web add github:AlbertZJ/dsh-genui-stateful
 ```
 

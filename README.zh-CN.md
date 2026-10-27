@@ -20,7 +20,8 @@
 # npm 发布后
 dsh plugin --profile web add dsh-genui-stateful
 
-# 或直接从 GitHub 安装
+# 或直接从 GitHub 安装（仓库当前为私有：git/pnpm 需先通过认证，
+# 例如 `gh auth setup-git` 或本机已保存凭据）
 dsh plugin --profile web add github:AlbertZJ/dsh-genui-stateful
 ```
 
