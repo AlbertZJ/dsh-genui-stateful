@@ -1,6 +1,9 @@
 node_modules/
 *.tsbuildinfo
-lib/
+# `lib/` (this package's build output) is tracked: `main` points into it and a
+# `github:` install runs no build step, so the entry point must travel with the
+# source. Only the unrelated acceptance fixture directory stays ignored.
+scripts/sidechat-acceptance/fixture/lib/
 .e2e-artifacts/
 .e2e-artifacts-*/
 .e2e-*/
